@@ -1,0 +1,97 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: url("https://static.vecteezy.com/system/resources/previews/004/715/848/non_2x/to-do-list-word-concepts-banner-task-prioritizing-planning-and-scheduling-infographics-with-linear-icons-on-turquoise-background-isolated-typography-outline-rgb-color-illustration-vector.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: rgba(225, 255, 255, 0, 8);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  margin: 120px auto 0;
+}
+
+header {
+  background-color: #ff69b4;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+header h1,  
+header h2, p {
+  margin: 5px 0;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  flex: 1;
+  font-size: 20px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+button[type="submit"],
+li button {
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+button[type="submit"]:hover,
+li button:hover {
+  background-color: #ff1493;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #ffeff5;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #d3d3d3;
+}
